@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>Kindly provide the details below</h2>
+
+    <form action="./" method="post">
+
+        <label for="fname">First Name</label> &nbsp
+        <input id="fname" name="fname" type="text" placeholder="first name">
+
+        <br><br>
+
+        <label for="lname">Last Name</label> &nbsp
+        <input id="lname" name="lname" type="text" placeholder="last name">
+
+        <br><br>
+
+        <label for="email">Email</label> &nbsp
+        <input id="email" name="email" type="text" placeholder="email">
+
+        <br><br>
+
+        <label for="phone">Phone Number</label> &nbsp
+        <input id="phone" name="phone" type="tel"  pattern="+[0-9]{3}[0-9]{9}" placeholder="+233298365648"> &nbsp
+        <small><strong> Format: +233000000000 </strong></small>
+
+        <br><br>
+
+        <label>Gender</label> &nbsp
+        <input id="male" name="gender" type="radio" value="male">
+        <small> <strong>Male</strong></small> &nbsp
+        
+        <input id="female" name="gender" type="radio" value="female">
+        <small><strong>Female</strong></small> &nbsp
+
+        <input id="other" name="gender" type="radio" value="other">
+        <small><strong>Others</strong></small>
+
+        <br><br>
+
+        <input type="submit">
+
+
+    </form>
+    
+</body>
+</html>
